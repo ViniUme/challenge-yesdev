@@ -1,5 +1,6 @@
 :root{
     --purple: #820ad1;
+    --gray: #747474;
 }
 
 *{
@@ -13,7 +14,7 @@ body{
     background: #000;
 }
 
-.navbar, .nav-element, .nav-link, .log-link{
+.navbar, .nav-element, .nav-link, .log-link, .front-cover{
     display: flex;
     align-items: center;
 }
@@ -21,7 +22,7 @@ body{
 .navbar{
     padding: 0 50px;
     width: 100%;
-    height: 56px;
+    height: 8vh;
     background: #fff;
     justify-content: space-between;
     gap: 32px;
@@ -56,6 +57,65 @@ body{
 
 .log-link{
     font-weight: 700;
+    text-decoration: none;
     color: var(--purple);
     gap: 5px;
+}
+
+.front-cover{
+    width: 100%;
+    height: 92vh;
+    background: url("./img/front.webp") center no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+}
+
+.text-div{
+    font: 900 30px sans-serif;
+    color: #fff;
+    width: 35%;
+}
+
+.form{
+    padding: 30px 20px;
+    width: 350px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.form-text{
+    font: 400 24px sans-serif;
+    margin-bottom: 32px;
+}
+
+.input-div{
+    position: relative;
+    padding: 16px 0;
+}
+
+.input{
+    padding: 4px 24px 4px 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    font: 700 25px sans-serif;
+    letter-spacing: -1px;
+    border-bottom: 1px var(--gray) solid;
+}
+.input:focus{
+    border-bottom: 1px #000 solid;
+}
+.input:focus + .label, .input:not(:placeholder-shown) + .label{
+    transform: translateY(-30px);
+    font-size: 13px;
+}
+
+.label{
+    font: 700 16px sans-serif;
+    color: var(--gray);
+    position: absolute;
+    margin: auto;
+    left: 10px;
+    bottom: 25px;
+    transition: 150ms ease-in-out;
 }
