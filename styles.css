@@ -1,6 +1,6 @@
 :root{
     --purple: #820ad1;
-    --gray: #747474;
+    --gray: #949494;
 }
 
 *{
@@ -14,7 +14,7 @@ body{
     background: #000;
 }
 
-.navbar, .nav-element, .nav-link, .log-link, .front-cover{
+.navbar, .nav-element, .nav-link, .log-link, .front-cover, .submit{
     display: flex;
     align-items: center;
 }
@@ -67,17 +67,27 @@ body{
     height: 92vh;
     background: url("./img/front.webp") center no-repeat;
     background-size: cover;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .text-div{
     font: 900 30px sans-serif;
     color: #fff;
-    width: 35%;
+    width: 45%;
+}
+
+.title{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.sub-title{
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .form{
-    padding: 30px 20px;
+    padding: 30px;
     width: 350px;
     background: #fff;
     border-radius: 20px;
@@ -90,6 +100,7 @@ body{
 
 .input-div{
     position: relative;
+    margin-bottom: 30px;
     padding: 16px 0;
 }
 
@@ -111,11 +122,22 @@ body{
 }
 
 .label{
-    font: 700 16px sans-serif;
+    font: 500 16px sans-serif;
     color: var(--gray);
     position: absolute;
     margin: auto;
     left: 10px;
     bottom: 25px;
     transition: 150ms ease-in-out;
+}
+
+.submit{
+    margin: 0 auto;
+    font: 500 16px sans-serif;
+    padding: 15px 25px;
+    width: 100%;
+    border: none;
+    border-radius: 40px;
+    justify-content: space-between;
+    color: var(--gray);
 }
