@@ -1,7 +1,7 @@
 {
     "name": "Vinícius Henrique dos Santos",
-    "background": "Comecei a estudar programação com 13 anos em um curso de criação de jogos. Desde então me encantei pela programação, e ao completar o ensino funcdamental, decidi entrar na turma de desenvolvimento de sistemas integrado ao ensino médio na etec, onde consegui desenvolver mais habilidade na área de programação.",
-    "objective": "Construir uma carreira como programador full-stack.",
+    "background": "Comecei a estudar programação com 13 anos em um curso de criação de jogos, me encantando por suas revoluções e praticidade. Oque me incentivou à entrar na turma de desenvolvimento de sistemas integrado ao ensino médio na Etec, onde consegui desenvolver mais habilidade na área de programação. Para aprimorar meus conhecimentos, também busquei fazer diversos cursos, projetos e procurar mentorias.",
+    "objective": "Construir uma carreira como programador full-stack, alcançar nível de Desenvolvedor Sênior, criar conteúdos sobre programação e escrever um livro relacionado à programação.",
     "technologies_skills": {
         "programing_languages": ["javascript", "python"],
         "frameworks_&_libraries": ["node.js", "react.js", "next.js", "vue.js", "flask", "mui"],
